@@ -89,14 +89,12 @@
             android:name=".activities.alarms.AlarmScreenActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/alarm"
-            android:screenOrientation="portrait" />
+            android:label="@string/alarm" />
         <activity
             android:name=".activities.alarms.AddAlarmActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/add_alarm"
-            android:screenOrientation="portrait" />
+            android:label="@string/add_alarm" />
         <activity
             android:name=".activities.contacts.ContactsActivity"
 
@@ -115,8 +113,7 @@
             android:name=".activities.TutorialActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/video_tutorials"
-            android:screenOrientation="portrait" />
+            android:label="@string/video_tutorials" />
         <activity
             android:name=".activities.SOSActivity"
 
@@ -173,8 +170,7 @@
         <activity
             android:name=".activities.alarms.AddTimerActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}" />
         <activity
             android:name=".activities.AppsActivity"
 
@@ -188,23 +184,19 @@
         <activity
             android:name=".activities.pills.AddPillActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}" />
         <activity
             android:name=".activities.pills.PillScreenActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}"/>
         <activity
             android:name=".activities.FontChangerActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}" />
         <activity
             android:name=".activities.AccessibilityLevelChangerActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}" />
         <activity
             android:name=".activities.contacts.ShareActivity"
 
@@ -214,8 +206,7 @@
             android:name=".activities.CreditsActivity"
             android:enabled="${fullApp}" />
         <activity
-            android:name=".activities.YoutubeActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activities.YoutubeActivity" />
         <activity
             android:name=".activities.VideoTutorialsActivity"
 
@@ -244,8 +235,7 @@
         <activity
             android:name=".activities.TechnicalInfoActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}" />
         <activity
             android:name=".activities.FeedbackActivity"
             android:enabled="${fullApp}" />
