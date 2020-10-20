@@ -50,7 +50,7 @@
         android:layout_weight="1"
         android:background="@drawable/home_item_1"
         android:orientation="horizontal">
-
+        <!-- change strings to welfare -->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
             android:id="@+id/bt_recent"
             android:layout_width="0dp"
@@ -59,7 +59,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/history_on_background"
+            app:__src="@drawable/ic_welfare_01"
             app:__text="@string/recent" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
@@ -71,7 +71,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/phone_on_background"
+            app:__src="@drawable/ic_phone_01"
             app:__text="@string/dialer" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
@@ -83,7 +83,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/human_on_background"
+            app:__src="@drawable/ic_contact_01"
             app:__text="@string/contacts" />
     </LinearLayout>
 
@@ -113,7 +113,7 @@
             app:__text="@string/whatsapp" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
-
+        <!-- change strings to welfare -->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
             android:id="@+id/bt_assistant"
             android:layout_width="0dp"
@@ -125,7 +125,7 @@
             app:__text="@string/assistant" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
-
+        <!-- change strings to welfare -->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
             android:id="@+id/bt_messages"
             android:layout_width="0dp"
@@ -133,7 +133,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/message_on_background"
+            app:__src="@drawable/ic_zoomus_icon"
             app:__text="@string/messages" />
     </LinearLayout>
 
@@ -158,7 +158,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/photo_on_background"
+            app:__src="@drawable/ic_pictures_01"
             app:__text="@string/photos" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
@@ -170,11 +170,11 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/camera_on_background"
+            app:__src="@drawable/ic_camera_01"
             app:__text="@string/camera" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
-
+        <!-- change strings to INFO -->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
             android:id="@+id/bt_videos"
             android:layout_width="0dp"
@@ -182,7 +182,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/movie_on_background"
+            app:__src="@drawable/ic_info_01"
             app:__text="@string/videos" />
 
     </LinearLayout>
@@ -209,7 +209,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/pill"
+            app:__src="@drawable/ic_drugs_01"
             app:__text="@string/pills" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
@@ -221,11 +221,11 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/apps_on_background"
+            app:__src="@drawable/ic_apps_01"
             app:__text="@string/apps" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
-
+        <!-- change strings to notes -->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
             android:id="@+id/bt_clock"
             android:layout_width="0dp"
@@ -233,7 +233,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/clock_on_background"
+            app:__src="@drawable/ic_notes_01"
             app:__text="@string/alarms" />
     </LinearLayout>
 </LinearLayout>

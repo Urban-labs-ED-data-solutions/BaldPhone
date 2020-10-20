@@ -61,7 +61,7 @@
         android:id="@+id/notifications"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/style_for_buttons_transparent"
+        android:background="@drawable/sidebar_btn"
         android:padding="10dp"
         android:src="@drawable/notification_alot_on_background"
         app:layout_constraintBottom_toBottomOf="parent"
