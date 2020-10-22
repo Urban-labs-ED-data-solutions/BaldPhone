@@ -21,6 +21,10 @@
     <color name="green">#2e7d32</color>
     <color name="red">#c62828</color>
     <color name="gray">#9e9e9e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cloud">#ecf0f1</color>
+    <color name="purble">#9b59b6</color>
+    <color name="bright_red">#e74c3c</color>
     <!--pills-->
 
     <color name="gold">#ffcf40</color>
@@ -33,7 +37,7 @@
     <color name="toast_foreground_informative">#000000</color>
 
     <color name="battery_low">#d50000</color>
-
+    <color name="whatsapp_color">#4FCE5D</color>
 
     <color name="outgoing">#80388ba3</color>
     <color name="received">#802e7d32</color>
@@ -42,7 +46,10 @@
 
 
     <color name="color_1">#5064ef5b</color>
+    <color name="color_v_1">#2ecc71</color>
     <color name="color_2">#501de8b5</color>
+    <color name="color_v_2">#3498db</color>
+    <color name="color_v_3">#2980b9</color>
     <color name="color_4">#50bcaaa4</color>
     <color name="color_3">#5080cbc4</color>
 </resources>

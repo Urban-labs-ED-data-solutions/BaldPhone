@@ -21,10 +21,10 @@
 
 
     <!--Light Theme-->
-    <color name="bald_background_light">#DDE2E3</color>
+    <color name="bald_background_light">#ffffff</color>
     <color name="bald_background_transparent_light">#E4DDE2E3</color>
-    <color name="bald_button_light">#9AACB8</color>
-    <color name="bald_button_clicked_light">#3C455C</color>
+    <color name="bald_button_light">#ecf0f1</color>
+    <color name="bald_button_clicked_light">#bdc3c7</color>
     <dimen name="bald_button_corners_radius_light">8dp</dimen>
     <color name="bald_button_disabled_light">#d6d6d6</color>
     <dimen name="bald_button_pill_corners_radius_light">500dp</dimen>

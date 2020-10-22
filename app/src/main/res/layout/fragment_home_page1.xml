@@ -60,7 +60,7 @@
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
             app:__src="@drawable/ic_welfare_01"
-            app:__text="@string/recent" />
+            app:__text="@string/welfare" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
 
@@ -109,7 +109,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/whatsapp_on_background"
+            app:__src="@drawable/ic_whatsapp"
             app:__text="@string/whatsapp" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
@@ -121,7 +121,7 @@
             android:layout_weight="1"
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
-            app:__src="@drawable/voice_on_background"
+            app:__src="@drawable/ic_microphone_2"
             app:__text="@string/assistant" />
 
         <include layout="@layout/ll_divider_as_horizontal_layout" />
@@ -134,7 +134,7 @@
             android:background="@drawable/style_for_buttons_transparent"
             android:visibility="visible"
             app:__src="@drawable/ic_zoomus_icon"
-            app:__text="@string/messages" />
+            app:__text="@string/zoom" />
     </LinearLayout>
 
     <android.widget.Space

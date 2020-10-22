@@ -61,7 +61,7 @@
 
     <string name="apps">יישומים</string>
     <string name="are_you_sure_you_want_to_delete___">האם ברצונך למחוק את %s?</string>
-    <string name="assistant">סיוע קולי</string>
+    <string name="assistant">BipIt</string>
     <string name="at_least_one_day_must_be_selected">לפחות יום אחד חייב להיות מסומן!</string>
     <string name="auto_brightness">בהירות אוטומטית</string>
     <string name="backspace">מחיקה</string>
@@ -189,7 +189,7 @@
     <string name="on">מופעל</string>
 
     <string name="only_once">חד פעמי</string>
-
+    <string name="welfare">מוקד רווחה</string>
 
     <string name="open">לפתוח</string>
 
@@ -220,7 +220,7 @@
     <string name="removed_all_alarms">כל השעונים הוסרו!</string>
     <string name="repeats_every_day">כל יום</string>
     <string name="right_handed">לימניים</string>
-
+    <string name="zoom">זום</string>
     <string name="saturday">שבת</string>
     <string name="save">שמור</string>
     <string name="send">שלח</string>
