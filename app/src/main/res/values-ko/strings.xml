@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">BaldPhone</string>
+    <string name="app_name">Tab Hazahav</string>
     <string name="a_new_update_is_available">업데이트가 가능합니다</string>
     <string name="about_subtext">안녕하세요! 저는 이 플랫폼의 개발자 Uriah Shaul Mandel입니다. 저는 성인 이후의 시간을 이 플랫폼을 만드는데 투자하였으며 이 플랫폼을 모든 사람들이 사용할 수 있도록 무료로 배포하였습니다. 귀하는 제 이메일로 연락하실 수 있습니다. : baldphone.contact@gmail.com</string>
     <string name="accessibility_level">접근 가능한 수준</string>

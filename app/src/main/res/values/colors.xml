@@ -25,6 +25,11 @@
     <color name="cloud">#ecf0f1</color>
     <color name="purble">#9b59b6</color>
     <color name="bright_red">#e74c3c</color>
+    <color name="bright_green">#badc58</color>
+    <color name="brighter_red">#ff7979</color>
+    <color name="brighter_blue">#686de0</color>
+    <color name="darker_blue">#4834d4</color>
+    <color name="bright_pink">#e056fd</color>
     <!--pills-->
 
     <color name="gold">#ffcf40</color>

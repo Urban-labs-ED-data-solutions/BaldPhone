@@ -35,31 +35,31 @@ public class TutorialFragment1 extends TutorialFragment {
     private void firstAnimation(final View view, final Runnable afterAnimation, final long msDuration) {
         final LinearLayout.LayoutParams layoutParamsBefore = (LinearLayout.LayoutParams) view.getLayoutParams();
         final int topMarginBefore = layoutParamsBefore.topMargin;
-        Animation animation = new Animation() {
-            @Override
-            protected void applyTransformation(float interpolatedTime, Transformation t) {
-                super.applyTransformation(interpolatedTime, t);
-                layoutParamsBefore.topMargin = (int) ((1 - interpolatedTime) * topMarginBefore);
-                view.setLayoutParams(layoutParamsBefore);
-            }
-        };
-        animation.setAnimationListener(new Animation.AnimationListener() {
-            @Override
-            public void onAnimationStart(Animation animation) {
-            }
-
-            @Override
-            public void onAnimationEnd(Animation animation) {
-                afterAnimation.run();
-            }
-
-            @Override
-            public void onAnimationRepeat(Animation animation) {
-            }
-        });
-
-        animation.setDuration(msDuration);
-        view.startAnimation(animation);
+//        Animation animation = new Animation() {
+//            @Override
+//            protected void applyTransformation(float interpolatedTime, Transformation t) {
+//                super.applyTransformation(interpolatedTime, t);
+//                layoutParamsBefore.topMargin = (int) ((1 - interpolatedTime) * topMarginBefore);
+//                view.setLayoutParams(layoutParamsBefore);
+//            }
+//        };
+//        animation.setAnimationListener(new Animation.AnimationListener() {
+//            @Override
+//            public void onAnimationStart(Animation animation) {
+//            }
+//
+//            @Override
+//            public void onAnimationEnd(Animation animation) {
+//                afterAnimation.run();
+//            }
+//
+//            @Override
+//            public void onAnimationRepeat(Animation animation) {
+//            }
+//        });
+//
+//        animation.setDuration(msDuration);
+//        view.startAnimation(animation);
     }
 
     @Override

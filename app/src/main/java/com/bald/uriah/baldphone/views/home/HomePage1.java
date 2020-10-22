@@ -78,6 +78,12 @@ import static com.bald.uriah.baldphone.services.NotificationListenerService.NOTI
 public class HomePage1 extends HomeView {
     public static final String TAG = HomePage1.class.getSimpleName();
     private final static String WHATSAPP_PACKAGE_NAME = "com.whatsapp";
+    private final static String BipIt_PACKAGE_NAME = "com.pzlapps.bipit";
+    private final static ComponentName BipIt_COMPONENT_NAME =
+            new ComponentName(BipIt_PACKAGE_NAME, BipIt_PACKAGE_NAME + ".Main");
+    private final static String Zoom_PACKAGE_NAME = "us.zoom.videomeetings";
+    private final static ComponentName Zoom_COMPONENT_NAME =
+            new ComponentName(Zoom_PACKAGE_NAME, Zoom_PACKAGE_NAME + ".Main");
     private final static ComponentName WHATSAPP_COMPONENT_NAME =
             new ComponentName(WHATSAPP_PACKAGE_NAME, WHATSAPP_PACKAGE_NAME + ".Main");
     public Map<App, FirstPageAppIcon> viewsToApps;
@@ -197,11 +203,29 @@ public class HomePage1 extends HomeView {
                 }
         });
         setupButton(BPrefs.CUSTOM_ASSISTANT_KEY, bt_assistant, v -> {
-            try {
-                homeScreen.startActivity(new Intent(Intent.ACTION_VOICE_COMMAND).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-            } catch (Exception e) {
-                BaldToast.from(homeScreen).setType(BaldToast.TYPE_ERROR).setText(R.string.your_phone_doesnt_have_assistant_installed).show();
+            if (S.isPackageInstalled(homeScreen, BipIt_PACKAGE_NAME)) {
+//                S.startComponentName(homeScreen, BipIt_COMPONENT_NAME);
+                PackageManager manager = homeScreen.getPackageManager();
+                Intent i = new Intent(Intent.ACTION_MAIN);
+                i.addCategory(Intent.CATEGORY_LAUNCHER);
+                i.setPackage(BipIt_PACKAGE_NAME);
+                homeScreen.startActivity(i);
+//                Intent intent = manager.getLaunchIntentForPackage(BipIt_PACKAGE_NAME);
+//                if(intent != null)
+//                    getContext().startService(intent);
+
             }
+            else
+                try {
+                    homeScreen.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + BipIt_PACKAGE_NAME)));
+                } catch (android.content.ActivityNotFoundException e) {
+                    homeScreen.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + BipIt_PACKAGE_NAME)));
+                }
+//            try {
+//                homeScreen.startActivity(new Intent(Intent.ACTION_VOICE_COMMAND).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+//            } catch (Exception e) {
+//                BaldToast.from(homeScreen).setType(BaldToast.TYPE_ERROR).setText(R.string.your_phone_doesnt_have_assistant_installed).show();
+//            }
         });
         setupButton(BPrefs.CUSTOM_MESSAGES_KEY, bt_messages, v -> {
             try {

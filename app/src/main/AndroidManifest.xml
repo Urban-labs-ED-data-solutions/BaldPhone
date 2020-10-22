@@ -114,7 +114,7 @@
 
             android:enabled="${fullApp}"
             android:label="@string/video_tutorials"
-            android:screenOrientation="portrait" />
+             />
         <activity
             android:name=".activities.SOSActivity"
 

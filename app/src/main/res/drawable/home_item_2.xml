@@ -25,6 +25,7 @@
         android:startColor="@color/color_v_2"
         android:endColor="@color/cloud"
         android:angle="0" />
+    <stroke android:width="7px" android:color="@color/cloud" />
 </shape>
 
 
