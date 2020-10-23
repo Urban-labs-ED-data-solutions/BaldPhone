@@ -15,8 +15,7 @@
   -->
 <resources>
     <string name="api_level" translatable="false">Api Level:</string>
-    <string name="app_name" translatable="false">טאב הזהב</string>
-
+    <string name="app_name" translatable="false">מידעל\'ה</string>
     <string name="authorities" translatable="false">com.bald.uriah.baldphone.fileprovider</string>
 
     <string name="empty" translatable="false" />

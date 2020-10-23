@@ -16,4 +16,5 @@
 
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="30dp"
+    android:layout_margin="10dp"
     android:layout_height="match_parent" />

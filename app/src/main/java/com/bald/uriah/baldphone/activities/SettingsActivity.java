@@ -380,28 +380,28 @@ public class SettingsActivity extends BaldActivity {
         linearLayout.addView(pic);
         Glide.with(pic).load(R.drawable.me).into(pic);
 
-        mainCategory.add(
-                new BDBSettingsItem(R.string.about,
-                        BDB.from(this)
-                                .addFlag(BDialog.FLAG_OK)
-                                .setTitle(R.string.about)
-                                .setSubText(R.string.about_subtext)
-                                .setPositiveButtonListener(params -> true)
-                                .setExtraView(linearLayout)
-
-                        , R.drawable.info_on_button)
-        );
+//        mainCategory.add(
+//                new BDBSettingsItem(R.string.about,
+//                        BDB.from(this)
+//                                .addFlag(BDialog.FLAG_OK)
+//                                .setTitle(R.string.about)
+//                                .setSubText(R.string.about_subtext)
+//                                .setPositiveButtonListener(params -> true)
+//                                .setExtraView(linearLayout)
+//
+//                        , R.drawable.info_on_button)
+//        );
         if (!BuildConfig.FLAVOR.equals("gPlay"))
-            mainCategory.add(
-                    new RunnableSettingsItem(R.string.donate,
-                            v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://baldphone.com/support-us/"))),
-                            R.drawable.donate_on_button)
-            );
-        mainCategory.add(
-                new RunnableSettingsItem(R.string.technical_information,
-                        v -> startActivity(new Intent(this, TechnicalInfoActivity.class)),
-                        R.drawable.tech_info_on_button)
-        );
+//            mainCategory.add(
+//                    new RunnableSettingsItem(R.string.donate,
+//                            v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://baldphone.com/support-us/"))),
+//                            R.drawable.donate_on_button)
+//            );
+//        mainCategory.add(
+//                new RunnableSettingsItem(R.string.technical_information,
+//                        v -> startActivity(new Intent(this, TechnicalInfoActivity.class)),
+//                        R.drawable.tech_info_on_button)
+//        );
 //        mainCategory.add(
 //                new RunnableSettingsItem(R.string.share_baldphone, v -> S.shareBaldPhone(this), R.drawable.share_on_background)
 //        );
@@ -430,12 +430,12 @@ public class SettingsActivity extends BaldActivity {
 //                                })
 //                                .setOptionsStartingIndex(() -> sharedPreferences.getBoolean(BPrefs.CRASH_REPORTS_KEY, BPrefs.CRASH_REPORTS_DEFAULT_VALUE) ? 0 : 1),
 //                        R.drawable.upload_on_button));
-        if (BuildConfig.FLAVOR.equals("baldUpdates"))
-            mainCategory.add(
-                    new RunnableSettingsItem(R.string.check_for_updates,
-                            v -> UpdatingUtil.checkForUpdates(this, true),
-                            R.drawable.updates_on_button)
-            );
+//        if (BuildConfig.FLAVOR.equals("baldUpdates"))
+//            mainCategory.add(
+//                    new RunnableSettingsItem(R.string.check_for_updates,
+//                            v -> UpdatingUtil.checkForUpdates(this, true),
+//                            R.drawable.updates_on_button)
+//            );
     }
 
     /**

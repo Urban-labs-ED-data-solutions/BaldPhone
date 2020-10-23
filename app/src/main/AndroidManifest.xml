@@ -197,8 +197,7 @@
         <activity
             android:name=".activities.AccessibilityLevelChangerActivity"
 
-            android:enabled="${fullApp}"
-            android:screenOrientation="portrait" />
+            android:enabled="${fullApp}" />
         <activity
             android:name=".activities.contacts.ShareActivity"
 

@@ -23,5 +23,5 @@
 
     <stroke
         android:width="?attr/bald_stroke_size"
-        android:color="?attr/bald_stroke_color" />
+        android:color="@color/cloud"/>
 </shape>

@@ -37,7 +37,9 @@
             style="@style/ScrollStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
+<!--            <Space-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="30dp"/>-->
             <LinearLayout
                 android:id="@+id/ll_info"
                 android:layout_width="match_parent"
@@ -48,6 +50,7 @@
                     layout="@layout/contact_bar"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp" />
 
                 <com.bald.uriah.baldphone.views.SquaredCircleImageView
