@@ -71,19 +71,19 @@
 
 
     <!--dark Theme-->
-    <color name="bald_background_dark">#000000</color>
-    <color name="bald_background_transparent_dark">#E4000000</color>
-    <color name="bald_button_dark">#0b212f</color>
-    <color name="bald_button_clicked_dark">#44586a</color>
+    <color name="bald_background_dark">#ffffff</color>
+    <color name="bald_background_transparent_dark">#E4DDE2E3</color>
+    <color name="bald_button_dark">#ecf0f1</color>
+    <color name="bald_button_clicked_dark">#bdc3c7</color>
     <dimen name="bald_button_corners_radius_dark">8dp</dimen>
     <color name="bald_button_disabled_dark">#d6d6d6</color>
     <dimen name="bald_button_pill_corners_radius_dark">500dp</dimen>
-    <color name="bald_decoration_on_background_dark">@color/bald_text_on_background_dark</color>
-    <color name="bald_decoration_on_button_dark">@color/bald_text_on_button_dark</color>
-    <color name="bald_decoration_on_key_dark">@color/bald_text_on_key_dark</color>
-    <color name="bald_hint_on_button_dark">#868686</color>
-    <color name="bald_hint_on_background_dark">@color/bald_hint_on_button_dark</color>
-    <color name="bald_keyboard_key_background_dark">@color/bald_button_dark</color>
+    <color name="bald_decoration_on_background_dark">@color/bald_text_on_background_light</color>
+    <color name="bald_decoration_on_button_dark">@color/bald_text_on_button_light</color>
+    <color name="bald_decoration_on_key_dark">@color/bald_text_on_key_light</color>
+    <color name="bald_hint_on_button_dark">#585858</color>
+    <color name="bald_hint_on_background_dark">@color/bald_hint_on_button_light</color>
+    <color name="bald_keyboard_key_background_dark">@color/bald_button_light</color>
     <color name="bald_keyboard_key_pressed_background_dark">#F38630</color>
     <color name="bald_selected_on_background_dark">#96A1AA</color>
     <color name="bald_text_on_selected_dark">#000</color>

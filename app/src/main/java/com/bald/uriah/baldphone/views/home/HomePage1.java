@@ -205,14 +205,17 @@ public class HomePage1 extends HomeView {
         setupButton(BPrefs.CUSTOM_ASSISTANT_KEY, bt_assistant, v -> {
             if (S.isPackageInstalled(homeScreen, BipIt_PACKAGE_NAME)) {
 //                S.startComponentName(homeScreen, BipIt_COMPONENT_NAME);
+                Intent i;
                 PackageManager manager = homeScreen.getPackageManager();
-                Intent i = new Intent(Intent.ACTION_MAIN);
-                i.addCategory(Intent.CATEGORY_LAUNCHER);
-                i.setPackage(BipIt_PACKAGE_NAME);
-                homeScreen.startActivity(i);
-//                Intent intent = manager.getLaunchIntentForPackage(BipIt_PACKAGE_NAME);
-//                if(intent != null)
-//                    getContext().startService(intent);
+                try {
+                    i = manager.getLaunchIntentForPackage(BipIt_PACKAGE_NAME);
+                    if (i == null)
+                        throw new PackageManager.NameNotFoundException();
+                    i.addCategory(Intent.CATEGORY_LAUNCHER);
+                    homeScreen.startActivity(i);
+                } catch (PackageManager.NameNotFoundException e) {
+                    BaldToast.from(homeScreen).setType(BaldToast.TYPE_ERROR).setText(e.toString()).show();
+                }
 
             }
             else
@@ -228,24 +231,43 @@ public class HomePage1 extends HomeView {
 //            }
         });
         setupButton(BPrefs.CUSTOM_MESSAGES_KEY, bt_messages, v -> {
-            try {
-                final ResolveInfo resolveInfo =
-                        homeScreen.getPackageManager()
-                                .queryIntentActivities(
-                                        new Intent("android.intent.action.MAIN", null)
-                                                .setPackage(Telephony.Sms.getDefaultSmsPackage(homeScreen))
-                                        , 0)
-                                .iterator()
-                                .next();
-                S.startComponentName(homeScreen, new ComponentName(resolveInfo.activityInfo.packageName, resolveInfo.activityInfo.name));
-
-            } catch (Exception e) {
-                BaldToast.from(homeScreen).setType(BaldToast.TYPE_ERROR).setText(R.string.an_error_has_occurred).show();
+            if (S.isPackageInstalled(homeScreen, Zoom_PACKAGE_NAME)) {
+                Intent i;
+                PackageManager manager = homeScreen.getPackageManager();
+                try {
+                    i = manager.getLaunchIntentForPackage(Zoom_PACKAGE_NAME);
+                    if (i == null)
+                        throw new PackageManager.NameNotFoundException();
+                    i.addCategory(Intent.CATEGORY_LAUNCHER);
+                    homeScreen.startActivity(i);
+                } catch (PackageManager.NameNotFoundException e) {
+                    BaldToast.from(homeScreen).setType(BaldToast.TYPE_ERROR).setText(e.toString()).show();
+                }
             }
+            else
+                try {
+                    homeScreen.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + Zoom_PACKAGE_NAME)));
+                } catch (android.content.ActivityNotFoundException e) {
+                    homeScreen.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + Zoom_PACKAGE_NAME)));
+                }
+//            try {
+//                final ResolveInfo resolveInfo =
+//                        homeScreen.getPackageManager()
+//                                .queryIntentActivities(
+//                                        new Intent("android.intent.action.MAIN", null)
+//                                                .setPackage(Telephony.Sms.getDefaultSmsPackage(homeScreen))
+//                                        , 0)
+//                                .iterator()
+//                                .next();
+//                S.startComponentName(homeScreen, new ComponentName(resolveInfo.activityInfo.packageName, resolveInfo.activityInfo.name));
+//
+//            } catch (Exception e) {
+//                BaldToast.from(homeScreen).setType(BaldToast.TYPE_ERROR).setText(R.string.an_error_has_occurred).show();
+//            }
         });
         setupButton(BPrefs.CUSTOM_PHOTOS_KEY, bt_photos, v -> homeScreen.startActivity(new Intent(homeScreen, PhotosActivity.class)));
         setupButton(BPrefs.CUSTOM_CAMERA_KEY, bt_camera, v -> homeScreen.startActivity(getCameraIntent()));
-        setupButton(BPrefs.CUSTOM_VIDEOS_KEY, bt_videos, v -> homeScreen.startActivity(new Intent(homeScreen, AlarmsActivity.class)));
+        setupButton(BPrefs.CUSTOM_VIDEOS_KEY, bt_videos, v -> homeScreen.startActivity(new Intent(homeScreen, VideosActivity.class)));
         setupButton(BPrefs.CUSTOM_PILLS_KEY, bt_reminders, v -> homeScreen.startActivity(new Intent(homeScreen, PillsActivity.class)));
         setupButton(BPrefs.CUSTOM_APPS_KEY, bt_apps, v -> {
             if (!homeScreen.finishedUpdatingApps)
