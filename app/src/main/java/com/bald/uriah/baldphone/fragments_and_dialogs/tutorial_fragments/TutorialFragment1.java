@@ -28,8 +28,8 @@ public class TutorialFragment1 extends TutorialFragment {
     private TextView hello, and_welcome_to_baldphone;
 
     protected void attachXml() {
-        hello = root.findViewById(R.id.hello);
-        and_welcome_to_baldphone = root.findViewById(R.id.and_welcome_to_baldphone);
+//        hello = root.findViewById(R.id.hello);
+//        and_welcome_to_baldphone = root.findViewById(R.id.and_welcome_to_baldphone);
     }
 
     private void firstAnimation(final View view, final Runnable afterAnimation, final long msDuration) {
@@ -65,15 +65,15 @@ public class TutorialFragment1 extends TutorialFragment {
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        if (hello != null)
-            if (isVisibleToUser) {
-                firstAnimation(hello, () -> and_welcome_to_baldphone.setVisibility(View.VISIBLE), 2000);
-            }
+//        if (hello != null)
+//            if (isVisibleToUser) {
+//                firstAnimation(hello, () -> and_welcome_to_baldphone.setVisibility(View.VISIBLE), 2000);
+//            }
     }
 
     @Override
     protected void actualSetup() {
-        firstAnimation(hello, () -> and_welcome_to_baldphone.setVisibility(View.VISIBLE), 2000);
+//        firstAnimation(hello, () -> and_welcome_to_baldphone.setVisibility(View.VISIBLE), 2000);
     }
 
     @Override

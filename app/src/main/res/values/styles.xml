@@ -127,26 +127,38 @@
         <item name="android:textSize">@dimen/medium</item>
         <item name="android:textColor">?attr/bald_text_on_background</item>
         <item name="fontWeight">700</item>
+        <item name="fontFamily">@font/alef_bold</item>
+    </style>
+    <style name="home_page">
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:textColor">?attr/bald_text_on_background</item>
+        <item name="fontWeight">900</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="BackgroundText.Medium">
         <item name="android:textSize">@dimen/medium</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="BackgroundText.Large">
         <item name="android:textSize">@dimen/large</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="BackgroundText.Huge">
         <item name="android:textSize">@dimen/huge</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="BackgroundText.Auto">
         <item name="autoSizeTextType">uniform</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="BackgroundText.Tiny">
         <item name="android:textSize">@dimen/tiny</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="ButtonsText">
@@ -154,29 +166,36 @@
         <item name="android:textColor">?attr/bald_text_on_button</item>
         <item name="android:gravity">center</item>
         <item name="fontWeight">700</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="ButtonsText.Medium">
         <item name="android:textSize">@dimen/medium</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="ButtonsText.Large">
         <item name="android:textSize">@dimen/large</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="ButtonsText.Huge">
         <item name="android:textSize">@dimen/huge</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="ButtonsText.Tiny">
         <item name="android:textSize">@dimen/tiny</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="ButtonsText.Auto">
         <item name="autoSizeTextType">uniform</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 
     <style name="BaldActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">?attr/bald_background</item>
+        <item name="fontFamily">@font/alef_bold</item>
     </style>
 </resources>

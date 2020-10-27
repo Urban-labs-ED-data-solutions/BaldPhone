@@ -26,7 +26,6 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.provider.Telephony;
@@ -46,11 +45,8 @@ import com.bald.uriah.baldphone.activities.DialerActivity;
 import com.bald.uriah.baldphone.activities.HomeScreenActivity;
 import com.bald.uriah.baldphone.activities.Page1EditorActivity;
 import com.bald.uriah.baldphone.activities.RecentActivity;
-import com.bald.uriah.baldphone.activities.alarms.AlarmsActivity;
 import com.bald.uriah.baldphone.activities.contacts.ContactsActivity;
 import com.bald.uriah.baldphone.activities.media.PhotosActivity;
-import com.bald.uriah.baldphone.activities.media.VideosActivity;
-import com.bald.uriah.baldphone.views.home.NotesView;
 import com.bald.uriah.baldphone.activities.pills.PillsActivity;
 import com.bald.uriah.baldphone.databases.apps.App;
 import com.bald.uriah.baldphone.databases.apps.AppsDatabase;
@@ -110,7 +106,7 @@ public class HomePage1 extends HomeView {
         }
     };
     private View view;
-    private FirstPageAppIcon bt_clock, bt_camera, bt_videos, bt_assistant, bt_messages, bt_photos, bt_contacts, bt_dialer, bt_whatsapp, bt_apps, bt_reminders, bt_recent;
+    private FirstPageAppIcon bt_clock, bt_camera, bt_videos, bt_assistant, bt_messages, bt_photos, bt_contacts, bt_dialer, bt_whatsapp, bt_apps, bt_mtk, bt_recent;
     private boolean registered = false;
     private SharedPreferences sharedPreferences;
 
@@ -165,7 +161,7 @@ public class HomePage1 extends HomeView {
         bt_dialer = view.findViewById(R.id.bt_dialer);
         bt_whatsapp = view.findViewById(R.id.bt_whatsapp);
         bt_clock = view.findViewById(R.id.bt_clock);
-        bt_reminders = view.findViewById(R.id.bt_reminders);
+        bt_mtk = view.findViewById(R.id.bt_mtk);
         bt_recent = view.findViewById(R.id.bt_recent);
         bt_camera = view.findViewById(R.id.bt_camera);
         bt_videos = view.findViewById(R.id.bt_videos);
@@ -274,7 +270,14 @@ public class HomePage1 extends HomeView {
             i.setData(Uri.parse(url));
             homeScreen.startActivity(i);
         });
-        setupButton(BPrefs.CUSTOM_PILLS_KEY, bt_reminders, v -> homeScreen.startActivity(new Intent(homeScreen, PillsActivity.class)));
+        setupButton(BPrefs.CUSTOM_PILLS_KEY, bt_mtk, v -> {
+//            homeScreen.startActivity(new Intent(homeScreen, PillsActivity.class));
+            String url = "https://www.motke.co.il/";
+
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            homeScreen.startActivity(i);
+        });
         setupButton(BPrefs.CUSTOM_APPS_KEY, bt_apps, v -> {
             if (!homeScreen.finishedUpdatingApps)
                 homeScreen.launchAppsActivity = true;

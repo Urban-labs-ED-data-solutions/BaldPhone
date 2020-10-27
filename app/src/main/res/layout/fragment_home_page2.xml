@@ -51,7 +51,7 @@
             android:gravity="center_vertical"
             android:paddingEnd="20dp"
             android:text="@string/settings"
-            android:textColor="?bald_text_on_button"
+            style="@style/ButtonsText.Large"
             android:textSize="@dimen/huge" />
     </com.bald.uriah.baldphone.views.BaldLinearLayoutButton>
 
@@ -120,7 +120,7 @@
             android:gravity="center_vertical"
             android:paddingEnd="20dp"
             android:text="@string/maps"
-            android:textColor="?bald_text_on_button"
+            style="@style/ButtonsText.Large"
             android:textSize="@dimen/huge" />
     </com.bald.uriah.baldphone.views.BaldLinearLayoutButton>
 
@@ -185,7 +185,7 @@
             android:gravity="center_vertical"
             android:paddingEnd="20dp"
             android:text="@string/rg_website"
-            android:textColor="?bald_text_on_button"
+            style="@style/ButtonsText.Large"
             android:textSize="@dimen/huge" />
 
     </com.bald.uriah.baldphone.views.BaldLinearLayoutButton>

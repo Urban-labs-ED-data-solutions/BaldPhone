@@ -76,6 +76,7 @@
     <string name="call">Call</string>
     <string name="calling">Calling</string>
     <string name="pills_txt">Pills</string>
+    <string name="mtk_txt">Motke</string>
     <string name="call_log">Call Log:</string>
     <string name="call_subtext">This permission is required in order to call contacts.</string>
     <string name="camera">Camera</string>

@@ -61,7 +61,8 @@
         <activity
             android:name=".activities.HomeScreenActivity"
             android:enabled="${fullApp}"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"  >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -75,7 +76,8 @@
             android:name=".activities.DialerActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/dialer">
+            android:label="@string/dialer"
+            android:screenOrientation="landscape"  >
             <intent-filter>
                 <action android:name="android.intent.action.DIAL" />
             </intent-filter>
@@ -84,56 +86,66 @@
             android:name=".activities.alarms.AlarmsActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/alarms" />
+            android:label="@string/alarms"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.alarms.AlarmScreenActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/alarm" />
+            android:label="@string/alarm"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.alarms.AddAlarmActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/add_alarm" />
+            android:label="@string/add_alarm"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.contacts.ContactsActivity"
 
             android:enabled="${fullApp}"
             android:label="@string/contacts"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.contacts.SingleContactActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.media.SingleVideoActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/video" />
+            android:label="@string/video"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.TutorialActivity"
 
             android:enabled="${fullApp}"
             android:label="@string/video_tutorials"
-             />
+            android:screenOrientation="landscape"   />
         <activity
             android:name=".activities.SOSActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/sos" />
+            android:label="@string/sos"
+            android:screenOrientation="landscape"  />
 
         <activity
             android:name=".activities.SettingsActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/settings" />
+            android:label="@string/settings"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.NotificationsActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/notifications" />
+            android:label="@string/notifications"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.FakeLauncherActivity"
-            android:enabled="false">
+            android:enabled="false"
+            android:screenOrientation="landscape"  >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -145,17 +157,20 @@
         <activity
             android:name=".activities.RecentActivity"
             android:enabled="${recentCalls}"
-            android:label="@string/recent"></activity>
+            android:label="@string/recent"
+            android:screenOrientation="landscape"  ></activity>
         <activity
             android:name=".activities.media.PhotosActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/photos" />
+            android:label="@string/photos"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.media.VideosActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/videos">
+            android:label="@string/videos"
+            android:screenOrientation="landscape"  >
             <intent-filter>
                 <action android:name="android.intent.action.GET_CONTENT" />
                 <data android:mimeType="video/*" />
@@ -164,69 +179,86 @@
         </activity>
         <activity
             android:name=".activities.media.SinglePhotoActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.contacts.AddContactActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.alarms.AddTimerActivity"
 
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.AppsActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/apps" />
+            android:label="@string/apps"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.pills.PillsActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/pills" />
+            android:label="@string/pills"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.pills.AddPillActivity"
 
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.pills.PillScreenActivity"
 
-            android:enabled="${fullApp}"/>
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.FontChangerActivity"
 
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.AccessibilityLevelChangerActivity"
 
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.contacts.ShareActivity"
 
             android:enabled="${fullApp}"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.CreditsActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
-            android:name=".activities.YoutubeActivity" />
+            android:name=".activities.YoutubeActivity"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.VideoTutorialsActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/video_tutorials" />
+            android:label="@string/video_tutorials"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.CrashActivity"
-            android:label="@string/crash" />
+            android:label="@string/crash"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.KeyboardChangerActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.pills.PillTimeSetterActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.PhoneActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/phone">
+            android:label="@string/phone"
+            android:screenOrientation="landscape"  >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -236,18 +268,22 @@
         <activity
             android:name=".activities.TechnicalInfoActivity"
 
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.FeedbackActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.UpdatesActivity"
-            android:enabled="${fullApp}" />
+            android:enabled="${fullApp}"
+            android:screenOrientation="landscape"  />
         <activity
             android:name=".activities.Page1EditorActivity"
 
             android:enabled="${fullApp}"
-            android:label="@string/edit_home_screen" />
+            android:label="@string/edit_home_screen"
+            android:screenOrientation="landscape"  />
 
 
         <service
@@ -315,6 +351,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
     </application>
 </manifest>

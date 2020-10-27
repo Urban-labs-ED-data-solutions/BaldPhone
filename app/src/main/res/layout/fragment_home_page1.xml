@@ -155,19 +155,20 @@
         tools:ignore="RtlHardcoded">
 
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
-            android:id="@+id/bt_photos"
+            android:id="@+id/bt_videos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/home_item_3"
             android:visibility="visible"
-            app:__src="@drawable/ic_pictures_01"
-            app:__text="@string/photos" />
+            app:__src="@drawable/rg"
+            app:__text="@string/rg" />
 
 <!--        <include layout="@layout/ll_divider_as_horizontal_layout" />-->
 
+
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
-            android:id="@+id/bt_camera"
+            android:id="@+id/bt_mtk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -175,21 +176,21 @@
             android:layout_weight="1"
             android:background="@drawable/home_item_3"
             android:visibility="visible"
-            app:__src="@drawable/ic_camera_01"
-            app:__text="@string/camera" />
+            app:__src="@drawable/logo_mtk2"
+            app:__text="@string/mtk_txt" />
 
 <!--        <include layout="@layout/ll_divider_as_horizontal_layout" />-->
         <!-- change strings to INFO -->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
-            android:id="@+id/bt_apps"
+            android:id="@+id/bt_clock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_weight="1"
             android:background="@drawable/home_item_3"
             android:visibility="visible"
-            app:__src="@drawable/ic_apps_01"
-            app:__text="@string/apps" />
+            app:__src="@drawable/kul"
+            app:__text="@string/kul" />
+
 
 
     </LinearLayout>
@@ -209,16 +210,16 @@
         android:padding="0dp"
         tools:ignore="RtlHardcoded">
 
-
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
-            android:id="@+id/bt_videos"
+            android:id="@+id/bt_photos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/home_item_4"
             android:visibility="visible"
-            app:__src="@drawable/rg"
-            app:__text="@string/rg" />
+            app:__src="@drawable/ic_pics_01"
+            app:__text="@string/photos" />
+
 <!--        <include layout="@layout/ll_divider_as_horizontal_layout" />-->
 
 <!--        <com.bald.uriah.baldphone.views.FirstPageAppIcon-->
@@ -232,8 +233,10 @@
 <!--            android:visibility="visible"-->
 <!--            app:__src="@drawable/ic_apps_01"-->
 <!--            app:__text="@string/apps" />-->
+
+<!--        <include layout="@layout/ll_divider_as_horizontal_layout" />-->
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
-            android:id="@+id/bt_reminders"
+            android:id="@+id/bt_camera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -241,18 +244,17 @@
             android:layout_weight="1"
             android:background="@drawable/home_item_4"
             android:visibility="visible"
-            app:__src="@drawable/ic_bluepills_01"
-            app:__text="@string/pills" />
-<!--        <include layout="@layout/ll_divider_as_horizontal_layout" />-->
-        <!-- change strings to notes -->
+            app:__src="@drawable/ic_camera_01"
+            app:__text="@string/camera" />
         <com.bald.uriah.baldphone.views.FirstPageAppIcon
-            android:id="@+id/bt_clock"
+            android:id="@+id/bt_apps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_weight="1"
             android:background="@drawable/home_item_4"
             android:visibility="visible"
-            app:__src="@drawable/kul"
-            app:__text="@string/kul" />
+            app:__src="@drawable/ic_apps_01"
+            app:__text="@string/apps" />
     </LinearLayout>
 </LinearLayout>

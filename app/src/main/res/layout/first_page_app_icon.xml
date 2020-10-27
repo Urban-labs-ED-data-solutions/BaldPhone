@@ -27,7 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintBottom_toTopOf="@+id/tv"
         app:layout_constraintDimensionRatio="1"
@@ -37,12 +37,13 @@
 
     <TextView
         android:id="@+id/tv"
-        style="@style/BackgroundText"
+        style="@style/home_page"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/alef_bold"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
