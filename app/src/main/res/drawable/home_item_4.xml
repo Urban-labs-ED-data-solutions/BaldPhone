@@ -22,10 +22,10 @@
 <!--        android:width="?attr/bald_stroke_size"-->
 <!--        android:color="?attr/bald_stroke_color" />-->
     <gradient
-        android:startColor="@color/bright_red"
-        android:endColor="@color/cloud"
+        android:startColor="@color/color_4"
+        android:endColor="@color/brighter_red"
         android:angle="0" />
-    <stroke android:width="7px" android:color="@color/cloud" />
+    <stroke android:width="15px" android:color="#f6f5f5" />
 </shape>
 
 

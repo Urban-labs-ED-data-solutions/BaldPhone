@@ -38,6 +38,7 @@
         android:layout_height="0dp"
         android:background="@drawable/style_for_buttons_transparent"
         android:padding="10dp"
+        android:visibility="gone"
         android:src="@drawable/flashlight_off_on_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/sound"

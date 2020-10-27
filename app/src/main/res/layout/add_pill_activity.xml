@@ -187,6 +187,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+
             android:layout_weight="0.5">
 
             <com.bald.uriah.baldphone.views.BaldImageButton
@@ -194,9 +195,10 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:src="@drawable/pill"
-                android:tint="@color/blue" />
+                android:background="@drawable/style_for_buttons_transparent"
+                android:src="@drawable/ic_orangepills_01"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
 
             <com.bald.uriah.baldphone.views.BaldImageButton
                 android:id="@+id/red"
@@ -204,8 +206,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/style_for_buttons_transparent"
-                android:src="@drawable/pill"
-                android:tint="@color/red" />
+                android:src="@drawable/ic_redpills_01"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
 
             <com.bald.uriah.baldphone.views.BaldImageButton
                 android:id="@+id/gray"
@@ -213,8 +216,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/style_for_buttons_transparent"
-                android:src="@drawable/pill"
-                android:tint="@color/gray" />
+                android:src="@drawable/ic_bluepills_01"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
 
             <com.bald.uriah.baldphone.views.BaldImageButton
                 android:id="@+id/yellow"
@@ -222,8 +226,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/style_for_buttons_transparent"
-                android:src="@drawable/pill"
-                android:tint="@color/yellow" />
+                android:src="@drawable/ic_yellowpills_01"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
 
             <com.bald.uriah.baldphone.views.BaldImageButton
                 android:id="@+id/green"
@@ -231,8 +236,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/style_for_buttons_transparent"
-                android:src="@drawable/pill"
-                android:tint="@color/green" />
+                android:src="@drawable/ic_green_pills_01"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
 
             <com.bald.uriah.baldphone.views.BaldImageButton
                 android:id="@+id/custom"

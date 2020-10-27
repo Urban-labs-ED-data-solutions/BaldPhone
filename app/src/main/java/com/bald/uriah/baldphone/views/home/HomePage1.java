@@ -267,7 +267,13 @@ public class HomePage1 extends HomeView {
         });
         setupButton(BPrefs.CUSTOM_PHOTOS_KEY, bt_photos, v -> homeScreen.startActivity(new Intent(homeScreen, PhotosActivity.class)));
         setupButton(BPrefs.CUSTOM_CAMERA_KEY, bt_camera, v -> homeScreen.startActivity(getCameraIntent()));
-        setupButton(BPrefs.CUSTOM_VIDEOS_KEY, bt_videos, v -> homeScreen.startActivity(new Intent(homeScreen, VideosActivity.class)));
+        setupButton(BPrefs.CUSTOM_VIDEOS_KEY, bt_videos, v -> {
+            String url = "https://www.ramat-gan.muni.il/community/senior_citizens/";
+
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            homeScreen.startActivity(i);
+        });
         setupButton(BPrefs.CUSTOM_PILLS_KEY, bt_reminders, v -> homeScreen.startActivity(new Intent(homeScreen, PillsActivity.class)));
         setupButton(BPrefs.CUSTOM_APPS_KEY, bt_apps, v -> {
             if (!homeScreen.finishedUpdatingApps)
@@ -275,7 +281,13 @@ public class HomePage1 extends HomeView {
             else
                 homeScreen.startActivity(new Intent(HomePage1.this.homeScreen, AppsActivity.class));
         });
-        setupButton(BPrefs.CUSTOM_ALARMS_KEY, bt_clock, v -> homeScreen.startActivity(new Intent(homeScreen, AlarmsActivity.class)));
+        setupButton(BPrefs.CUSTOM_ALARMS_KEY, bt_clock, v -> {
+            String url = "https://www.kolzchut.org.il/he/%D7%90%D7%96%D7%A8%D7%97%D7%99%D7%9D_%D7%95%D7%AA%D7%99%D7%A7%D7%99%D7%9D_%D7%95%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%A8%D7%99%D7%9D_(%D7%92%D7%99%D7%9C_%D7%94%D7%96%D7%94%D7%91)";
+
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            homeScreen.startActivity(i);
+        });
     }
 
     private void setupButton(String bPrefsKey, FirstPageAppIcon bt, View.OnClickListener onClickListener) {
@@ -296,7 +308,7 @@ public class HomePage1 extends HomeView {
                 if (phone) {
                     bt.setOnClickListener(v -> activity.startActivity(S.getPhoneIntent(activity)));
                     bt.setText(R.string.phone);
-                    bt.setImageResource(R.drawable.phone_on_button);
+                    bt.setImageResource(R.drawable.ic_phone_call_01);
                 } else {
                     bt.setOnClickListener(onClickListener);
                 }
@@ -345,7 +357,7 @@ public class HomePage1 extends HomeView {
             }
             if (phone) {
                 bt.setText(R.string.phone);
-                bt.setImageResource(R.drawable.phone_on_button);
+                bt.setImageResource(R.drawable.ic_phone_call_01);
             }
         }
     }

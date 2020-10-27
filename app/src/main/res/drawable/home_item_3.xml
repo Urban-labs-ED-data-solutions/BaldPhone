@@ -23,9 +23,9 @@
 <!--        android:color="?attr/bald_stroke_color" />-->
     <gradient
         android:startColor="@color/purble"
-        android:endColor="@color/cloud"
+        android:endColor="@color/bright_pink"
         android:angle="0" />
-    <stroke android:width="7px" android:color="@color/cloud" />
+    <stroke android:width="10px" android:color="#f6f5f5" />
 </shape>
 
 

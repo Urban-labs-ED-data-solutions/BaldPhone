@@ -55,6 +55,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.bald.uriah.baldphone.BuildConfig;
 import com.bald.uriah.baldphone.R;
+import com.bald.uriah.baldphone.activities.pills.PillsActivity;
 import com.bald.uriah.baldphone.adapters.BaldPagerAdapter;
 import com.bald.uriah.baldphone.databases.apps.AppsDatabaseHelper;
 import com.bald.uriah.baldphone.services.NotificationListenerService;
@@ -93,7 +94,7 @@ public class HomeScreenActivity extends BaldActivity {
     private static final String TAG = HomeScreenActivity.class.getSimpleName();
 
     private static final int[]
-            SOUND_DRAWABLES = {R.drawable.mute_on_background, R.drawable.vibration_on_background, R.drawable.sound_on_background},
+            SOUND_DRAWABLES = {R.drawable.ic_mute_01, R.drawable.ic_vibration_01, R.drawable.ic_volume},
             SOUND_TEXTS = {R.string.mute, R.string.vibrate, R.string.sound};
 
     private static final IntentFilter BATTERY_FILTER = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
@@ -136,7 +137,8 @@ public class HomeScreenActivity extends BaldActivity {
     private int notificationCount = 0;
     @ColorInt
     private int decorationColorOnBackground;
-    private BaldImageButton notificationsButton, sosButton, soundButton, flashButton;
+//    private BaldImageButton flashButton;
+    private BaldImageButton notificationsButton, sosButton, soundButton, pillButton;
     private AudioManager audioManager;
     private BaldHomeWatcher baldHomeWatcher;
     private boolean flashInited;
@@ -259,6 +261,9 @@ public class HomeScreenActivity extends BaldActivity {
                 return 3;
             }
         }, soundButton));
+        pillButton.setOnClickListener((v) -> {
+            startActivity(new Intent(this, PillsActivity.class));
+        });
         batteryView.setOnClickListener((v) -> BaldToast.from(this)
                 .setText(batteryView.percentage + "%")
                 .setBig(true)
@@ -273,8 +278,10 @@ public class HomeScreenActivity extends BaldActivity {
 
     @Override
     protected void onStart() {
+
         super.onStart();
         onStartCounter++;
+        notificationsButton.setVisibility(View.GONE);
         if (finishedUpdatingApps)
             updateViewPager();
         baldHomeWatcher.startWatch();
@@ -316,28 +323,28 @@ public class HomeScreenActivity extends BaldActivity {
         }
 
         soundButton.setImageResource(SOUND_DRAWABLES[audioManager.getRingerMode()]);
-        flashButton.setImageResource(flashState ?
-                R.drawable.flashlight_on_background :
-                R.drawable.flashlight_off_on_background);
-        if (flashInited) {
-            flashButton.setOnClickListener((v) -> {
-                flashState = !flashState;
-                lantern.enableTorchMode(true);
-                if (!flashState) // looks weird (it is) but necessary. otherwise it wont turn off after device rotation...
-                    lantern.enableTorchMode(false);
-                flashButton.setImageResource(flashState ?
-                        R.drawable.flashlight_on_background :
-                        R.drawable.flashlight_off_on_background);
-            });
-        } else if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-            flashButton.setOnClickListener(v -> startActivity(new Intent(this, PermissionActivity.class)
-                    .putExtra(PermissionActivity.EXTRA_REQUIRED_PERMISSIONS, PERMISSION_CAMERA)
-            ));
-
-        } else if (!testing) { // For travis screenshots to show the flashlight
-            flashButton.setOnClickListener(D.EMPTY_CLICK_LISTENER);
-            flashButton.setVisibility(View.GONE);
-        }
+//        flashButton.setImageResource(flashState ?
+//                R.drawable.flashlight_on_background :
+//                R.drawable.flashlight_off_on_background);
+//        if (flashInited) {
+//            flashButton.setOnClickListener((v) -> {
+//                flashState = !flashState;
+//                lantern.enableTorchMode(true);
+//                if (!flashState) // looks weird (it is) but necessary. otherwise it wont turn off after device rotation...
+//                    lantern.enableTorchMode(false);
+//                flashButton.setImageResource(flashState ?
+//                        R.drawable.flashlight_on_background :
+//                        R.drawable.flashlight_off_on_background);
+//            });
+//        } else if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+//            flashButton.setOnClickListener(v -> startActivity(new Intent(this, PermissionActivity.class)
+//                    .putExtra(PermissionActivity.EXTRA_REQUIRED_PERMISSIONS, PERMISSION_CAMERA)
+//            ));
+//
+//        } else if (!testing) { // For travis screenshots to show the flashlight
+//            flashButton.setOnClickListener(D.EMPTY_CLICK_LISTENER);
+//            flashButton.setVisibility(View.GONE);
+//        }
 
         LocalBroadcastManager.getInstance(this).
                 registerReceiver(notificationReceiver,
@@ -415,9 +422,10 @@ public class HomeScreenActivity extends BaldActivity {
 
         sosButton = top_bar.findViewById(R.id.sos);
         soundButton = top_bar.findViewById(R.id.sound);
+        pillButton = top_bar.findViewById(R.id.pills);
         batteryView = top_bar.findViewById(R.id.battery);
         notificationsButton = top_bar.findViewById(R.id.notifications);
-        flashButton = top_bar.findViewById(R.id.flash);
+//        flashButton = top_bar.findViewById(R.id.flash);
     }
 
     @Override

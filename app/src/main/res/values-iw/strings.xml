@@ -51,7 +51,9 @@
     <string name="alarm_volume">עוצמת צלצול שעון</string>
     <string name="alarm_volume_subtext">בחר את עוצמת צלצול השעון.\nהעוצמה גדלה מימין לשמאל.</string>
     <string name="alarms">שעון</string>
-
+    <string name="kul">כל זכות</string>
+    <string name="rg_website">אתר עיריית רמת גן</string>
+    <string name="rg">עיריית רמת גן</string>
     <string name="alarms_repeats_every">חוזר כל</string>
     <string name="all_alarms">כל השעונים</string>
     <string name="allow">אַפְשֵׁר</string>
@@ -68,6 +70,9 @@
     <string name="baldphone_bla_allow_permission">אנא אפשר את ההרשאות הבאות\nהאפליקציה אינה אוספת מידע אישי וצריכה את
         הרשאות אלו על מנת לתפקד
     </string>
+    <string name="sos_txt">חירום</string>
+    <string name="battery_txt">בטרייה</string>
+    <string name="sound_txt">שמע</string>
     <string name="blocked">חסום</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="brightness">בהירות</string>
@@ -81,6 +86,7 @@
     <string name="camera">מצלמה</string>
     <string name="camera_subtext">אנא אשר ל BaldPhone את הרשאת המצלמה, שמאפשרת להפעיל את הפנס. תמונות לעולם לא יצולמו.
     </string>
+    <string name="pills_txt">תרופות</string>
     <string name="cancel">ביטול</string>
     <string name="change_pills_time">שינוי זמן תרופות</string>
     <string name="change_system_settings_subtext">אנא אפשר לBaldPhone לשנות הגדרות כמו בהירות וגודל גופן</string>

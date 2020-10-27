@@ -25,11 +25,12 @@
     <color name="cloud">#ecf0f1</color>
     <color name="purble">#9b59b6</color>
     <color name="bright_red">#e74c3c</color>
-    <color name="bright_green">#badc58</color>
-    <color name="brighter_red">#ff7979</color>
-    <color name="brighter_blue">#686de0</color>
+    <color name="bright_green">#9CFFAC</color>
+    <color name="brighter_red">#FFC9C9</color>
+    <color name="brighter_blue">#97D8FE</color>
     <color name="darker_blue">#4834d4</color>
-    <color name="bright_pink">#e056fd</color>
+    <color name="bright_pink">#FFC9C9</color>
+
     <!--pills-->
 
     <color name="gold">#ffcf40</color>
@@ -51,10 +52,10 @@
 
 
     <color name="color_1">#5064ef5b</color>
-    <color name="color_v_1">#2ecc71</color>
+    <color name="color_v_1">#00B59C</color>
     <color name="color_2">#501de8b5</color>
-    <color name="color_v_2">#3498db</color>
-    <color name="color_v_3">#2980b9</color>
-    <color name="color_4">#50bcaaa4</color>
+    <color name="color_v_2">#59A7EC</color>
+    <color name="color_v_3">#AD84FF</color>
+    <color name="color_4">#FF7A7A</color>
     <color name="color_3">#5080cbc4</color>
 </resources>

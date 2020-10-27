@@ -51,7 +51,7 @@ public class HomePage2 extends HomeView {
     private View view;
     private ImageView iv_internet, iv_maps;
     private TextView tv_internet, tv_maps;
-    private View bt_settings, bt_internet, bt_maps, bt_help;
+    private View bt_settings, bt_internet, bt_maps, bt_help, bt_rg;
     private PackageManager packageManager;
 
     public HomePage2(@NonNull HomeScreenActivity homeScreen) {
@@ -76,6 +76,7 @@ public class HomePage2 extends HomeView {
         tv_internet = view.findViewById(R.id.tv_internet);
         tv_maps = view.findViewById(R.id.tv_maps);
         bt_help = view.findViewById(R.id.bt_help);
+        bt_rg = view.findViewById(R.id.bt_rg);
 
     }
 
@@ -88,7 +89,13 @@ public class HomePage2 extends HomeView {
 
         bt_help.setOnClickListener(v ->
                 homeScreen.startActivity(new Intent(getContext(), VideoTutorialsActivity.class)));
+        bt_rg.setOnClickListener(v -> {
+            String url = "https://www.ramat-gan.muni.il";
 
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            homeScreen.startActivity(i);
+        });
     }
 
     private void clickListenerForAbstractOpener(@NonNull final Uri uri, @NonNull final View bt, @NonNull final ImageView iv, @NonNull final TextView tv) {

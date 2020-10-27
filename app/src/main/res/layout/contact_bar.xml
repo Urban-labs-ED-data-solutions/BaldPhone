@@ -17,7 +17,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/options_bar"
     android:layout_width="match_parent"
-    android:layout_height="75dp"
+    android:layout_height="85dp"
     android:background="@color/white"
     android:orientation="horizontal"
     app:layout_constraintEnd_toEndOf="parent"
@@ -39,8 +39,9 @@
             android:layout_height="0dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
             android:layout_weight="4"
-            android:src="@drawable/edit_on_background" />
+            android:src="@drawable/ic_edit_01" />
 
         <TextView
             style="@style/ButtonsText.Auto"
@@ -65,11 +66,12 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="4"
 
-            android:src="@drawable/share_on_background" />
+            android:src="@drawable/ic_send_01" />
 
         <TextView
             style="@style/ButtonsText.Auto"
@@ -94,11 +96,12 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="4"
 
-            android:src="@drawable/delete_on_background" />
+            android:src="@drawable/ic_trash_01" />
 
         <TextView
             style="@style/ButtonsText.Auto"

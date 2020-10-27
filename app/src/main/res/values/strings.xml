@@ -55,7 +55,12 @@
     <string name="already_setted">Already Set!\nClick here to change to it</string>
     <string name="an_error_has_occurred">An error has occurred!</string>
     <string name="and_welcome_to_baldphone">and welcome to Baldphone</string>
-
+    <string name="rg_website">Ramat-Gan municipality website</string>
+    <string name="sos_txt">SOS</string>
+    <string name="battery_txt">Battery</string>
+    <string name="sound_txt">Sound</string>
+    <string name="rg">Ramat-Gan</string>
+    <string name="kul">kul Zchot</string>
     <string name="apps">Apps</string>
     <string name="are_you_sure_you_want_to_delete___">Are you sure you want to delete %s?</string>
     <string name="assistant">Assistant</string>
@@ -70,7 +75,7 @@
     <string name="cache_cleared_successfully">Cache Cleared Successfully!</string>
     <string name="call">Call</string>
     <string name="calling">Calling</string>
-
+    <string name="pills_txt">Pills</string>
     <string name="call_log">Call Log:</string>
     <string name="call_subtext">This permission is required in order to call contacts.</string>
     <string name="camera">Camera</string>

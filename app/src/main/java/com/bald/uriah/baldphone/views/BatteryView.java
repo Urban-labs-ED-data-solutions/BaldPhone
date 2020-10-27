@@ -59,22 +59,22 @@ public class BatteryView extends BaldImageButton {
             } else if (level < 100) {
                 drawableRes = R.drawable.battery_100_charging;
             } else
-                drawableRes = R.drawable.battery_full_on_background;
+                drawableRes = R.drawable.ic_battery;
         } else {
             if (level < D.LOW_BATTERY_LEVEL) {
-                drawableRes = R.drawable.battery_20_on_background;
+                drawableRes = R.drawable.ic_battery_empty;
             } else if (level < 30) {
-                drawableRes = R.drawable.battery_30_on_background;
+                drawableRes = R.drawable.ic_battery;
             } else if (level < 50) {
-                drawableRes = R.drawable.battery_50_on_background;
+                drawableRes = R.drawable.ic_battery;
             } else if (level < 60) {
-                drawableRes = R.drawable.battery_60_on_background;
+                drawableRes = R.drawable.ic_battery_full;
             } else if (level < 80) {
-                drawableRes = R.drawable.battery_80_on_background;
+                drawableRes = R.drawable.ic_battery_full;
             } else if (level < 90) {
-                drawableRes = R.drawable.battery_90_on_background;
+                drawableRes = R.drawable.ic_battery_full;
             } else if (level <= 100) {
-                drawableRes = R.drawable.battery_full_on_background;
+                drawableRes = R.drawable.ic_battery_full;
             }
 
         }
