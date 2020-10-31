@@ -18,10 +18,10 @@
     <string name="about">אודות</string>
     <string name="about_subtext">הפרוייקט נולד מפגישה עם חבר שחלה בפרקינסון. עזרתי לו עם בעיה כלשהי בטלפון, והבחנתי עד
         כמה הוא מתקשה לבצע פעולות, שעד אז חשבתי שהן פשוטות ומובנות מאליהן.\nהייתי בן 15, תלמיד במגמת מחשבים בכפר הירוק,
-        והחלטתי שזו תהיה המשימה שלי לחופשת הקיץ. BaldPhone הוא תוצר של מעל אלף שעות פיתוח. אני מקווה שבעזרתו מאות, ואולי
+        והחלטתי שזו תהיה המשימה שלי לחופשת הקיץ. טאב+ הוא תוצר של מעל אלף שעות פיתוח. אני מקווה שבעזרתו מאות, ואולי
         אלפי האנשים שזקוקים לו, יצליחו להינות משימוש נוח במכשיר שמותאם להם.\nפיתוח הממשק נעשה תוך כדי קבלת משוב צמוד.
         ניסיתי לענות על מגוון רחב של בעיות וצרכים. אם זאת, כדי להמשיך לשפר וסייע אשמח לקבל משוב, תגובות
-        והערות.\nהBaldPhone הוא חינמי ופתוח לכל. מקווה שתהנו.\nשלכם,\nאוריה שאול מנדל\nbaldphone.contact@gmail.com
+        והערות.\nהטאב+ הוא חינמי ופתוח לכל. מקווה שתהנו.\nשלכם,\nאוריה שאול מנדל\https://ramat-gan.muni.il
     </string>
     <string name="accessibility_level">רמת נגישות</string>
     <string name="accessibility_settings">נגישות</string>
@@ -59,7 +59,7 @@
     <string name="allow">אַפְשֵׁר</string>
     <string name="already_setted">כבר מוגדר!\nלחץ כאן לשינוי</string>
     <string name="an_error_has_occurred">אירעה שגיאה!</string>
-    <string name="and_welcome_to_baldphone">וברוכים הבאים ל-BaldPhone</string>
+    <string name="and_welcome_to_baldphone">וברוכים הבאים ל-טאב+</string>
 
     <string name="apps">יישומים</string>
     <string name="are_you_sure_you_want_to_delete___">האם ברצונך למחוק את %s?</string>
@@ -82,15 +82,15 @@
     <string name="calling">ביצוע שיחות</string>
 
     <string name="call_log">שיחות אחרונות:</string>
-    <string name="call_subtext">אנא אשר ל BaldPhone לבצע שיחות טלפון</string>
+    <string name="call_subtext">אנא אשר ל טאב+ לבצע שיחות טלפון</string>
     <string name="camera">מצלמה</string>
-    <string name="camera_subtext">אנא אשר ל BaldPhone את הרשאת המצלמה, שמאפשרת להפעיל את הפנס. תמונות לעולם לא יצולמו.
+    <string name="camera_subtext">אנא אשר ל טאב+ את הרשאת המצלמה, שמאפשרת להפעיל את הפנס. תמונות לעולם לא יצולמו.
     </string>
     <string name="pills_txt">תרופות</string>
     <string name="mtk_txt">מוטק\'ה</string>
     <string name="cancel">ביטול</string>
     <string name="change_pills_time">שינוי זמן תרופות</string>
-    <string name="change_system_settings_subtext">אנא אפשר לBaldPhone לשנות הגדרות כמו בהירות וגודל גופן</string>
+    <string name="change_system_settings_subtext">אנא אפשר לטאב+ לשנות הגדרות כמו בהירות וגודל גופן</string>
     <string name="choose_friday">ו</string>
     <string name="choose_monday">ב</string>
     <string name="choose_saturday">ש</string>
@@ -101,7 +101,7 @@
     <string name="clear">נקה</string>
     <string name="clear_cache">מחיקת מטמון</string>
     <string name="clear_data">מחיקת כל המידע</string>
-    <string name="clear_data_subtext">האם אתה בטוח שאתה רוצה למחוק את כל המידע של BaldPhone?</string>
+    <string name="clear_data_subtext">האם אתה בטוח שאתה רוצה למחוק את כל המידע של טאב+?</string>
     <string name="clear_data_subtext2">100%?</string>
     <string name="clear_data_subtext3">בטוח ב10000%\nפעולה זו לא הפיכה!</string>
     <string name="clock">שעון</string>
@@ -110,8 +110,8 @@
     <string name="contact_must_has_name">לאיש קשר חייב להיות שם!</string>
     <string name="contact_not_created">איש קשר לא נוצר!</string>
     <string name="contacts">אנשי קשר</string>
-    <string name="contacts_read_subtext">אנא אפשר לBaldPhone לקרוא את אנשי הקשר</string>
-    <string name="contacts_subtext">אנא אפשר לBaldPhone ליצור אנשי קשר חדשים</string>
+    <string name="contacts_read_subtext">אנא אפשר לטאב+ לקרוא את אנשי הקשר</string>
+    <string name="contacts_subtext">אנא אפשר לטאב+ ליצור אנשי קשר חדשים</string>
     <string name="crash">אופס!\nאירעה שגיאת מערכת,\nהמערכת מיד תופעל מחדש</string>
     <string name="current_time">שעה נוכחית</string>
     <string name="custom">התאמה אישית</string>
@@ -126,7 +126,7 @@
     <string name="edit">ערוך</string>
     <string name="email">אימייל:</string>
     <string name="enable_notification_access">אפשר להציג התראות שמתקבלות</string>
-    <string name="enable_notification_access_subtext">אנא אפשר ל BaldPhone להציג התראות שמתקבלות, במסך ההתראות. שום מידע
+    <string name="enable_notification_access_subtext">אנא אפשר ל טאב+ להציג התראות שמתקבלות, במסך ההתראות. שום מידע
         לא נאסף.
     </string>
     <string name="enter">אישור</string>
@@ -135,7 +135,7 @@
     <string name="example_of_different_text_sizes">דוגמות לגדלי טקסט שונים ברחבי האפליקציה.\nצריכות להיות קריאות ובו
         בזמן לא לצאת מהתחום שלהן.
     </string>
-    <string name="external_storage_subtext">אנא אפשר לBaldPhone לגשת לתמונות ולסרטים ולקבצי עדכון</string>
+    <string name="external_storage_subtext">אנא אפשר לטאב+ לגשת לתמונות ולסרטים ולקבצי עדכון</string>
     <string name="feedback">משוב</string>
     <string name="feedback_cannot_be_empty">המשוב אינו יכול להיות ריק!</string>
     <string name="feedback_sent_successfully">המשוב נשלח בהצלחה!</string>
@@ -213,7 +213,7 @@
     <string name="press_longer">לחיצה ארוכה</string>
     <string name="timer">טיימר</string>
     <string name="read_call_log">גישה לשיחות האחרונות</string>
-    <string name="read_call_log_subtext">אנא אפשר לBaldPhone לגשת לשיחות האחרונות, אשר יוצגו במסך השיחות האחרונות.
+    <string name="read_call_log_subtext">אנא אפשר לטאב+ לגשת לשיחות האחרונות, אשר יוצגו במסך השיחות האחרונות.
     </string>
     <string name="read_contacts">סרוק אנשי קשר</string>
     <string name="received">נענתה</string>
@@ -232,11 +232,11 @@
     <string name="save">שמור</string>
     <string name="send">שלח</string>
     <string name="set_default_dialer">יישום שיחות</string>
-    <string name="set_default_dialer_subtext">אנא אפשר לBaldPhone להיות יישום השיחות, על מנת שיוכל לגשת לשיחות אחרונות,
+    <string name="set_default_dialer_subtext">אנא אפשר לטאב+ להיות יישום השיחות, על מנת שיוכל לגשת לשיחות אחרונות,
         ליצור אנשי קשר ולהתקשר.
     </string>
     <string name="set_home_screen">שנה את מסך הבית</string>
-    <string name="set_home_screen_subtext">על מנת להוציא את המיטב מ-BaldPhone, מומלץ להגדיר אותה בתור מסך הבית.\nהתהליך
+    <string name="set_home_screen_subtext">על מנת להוציא את המיטב מ-טאב+, מומלץ להגדיר אותה בתור מסך הבית.\nהתהליך
         הפיך וניתן לשינוי בהגדרות
     </string>
     <string name="set_keyboard">הגדר מקלדת</string>
@@ -244,14 +244,14 @@
     <string name="settings">הגדרות</string>
     <string name="settings_permission">הגדרות</string>
     <string name="share">שלח</string>
-    <string name="share_actual_text">הי, אני משתמש/ת בפלטפורמה שנקראת Baldphone, המציעה פנים חדשות לטלפון הסלולרי, לטובת
+    <string name="share_actual_text">הי, אני משתמש/ת בפלטפורמה שנקראת טאב+, המציעה פנים חדשות לטלפון הסלולרי, לטובת
         ממשק נח, פשוט וקל לתפעול ולראייה. והחלק הכי טוב, היא חינמית לחלוטין! מעוניינ/ת?\n\nעוד
         מידע:\nhttps://sites.google.com/view/baldphone-il/home\n\n
     </string>
-    <string name="share_bald_phone_subtext">שלום,\nמכיר.ה אדם שיעוניין בBaldPhone?\nאת.ה מוזמנ.ת לשתף את BaldPhone
+    <string name="share_bald_phone_subtext">שלום,\nמכיר.ה אדם שיעוניין בטאב+?\nאת.ה מוזמנ.ת לשתף את טאב+
         עמו.
     </string>
-    <string name="share_baldphone">שיתוף BaldPhone</string>
+    <string name="share_baldphone">שיתוף טאב+</string>
     <string name="share_contact">שליחת איש קשר</string>
     <string name="share_differently">שליחה דרך יישום אחר</string>
     <string name="share_via_whatsapp">שליחה דרך ווטסאפ</string>
@@ -306,15 +306,15 @@
     <string name="clear_cache_subtext">האם אתה בטוח שאתה רוצה למחוק את כל המטמון?\nיישומים מוצמדים יפסיקו להיות
         מוצמדים
     </string>
-    <string name="permissions_calm">הי, BaldPhone חייב לקבל את ההרשאות הבאות בשביל לרוץ. חלק נשמעות מפחיד, אבל זוהי הדרך
-        היחידה שבה BaldPhone יכול להחליף את ממשק הטלפון. שום מידע לא נלקח ומתן ההרשאות לא גורם לשום נזק. לחץ אישור על
-        מנת לאפשר את ההרשאות או לא בשביל לצאת מBaldPhone.
+    <string name="permissions_calm">הי, טאב+ חייב לקבל את ההרשאות הבאות בשביל לרוץ. חלק נשמעות מפחיד, אבל זוהי הדרך
+        היחידה שבה טאב+ יכול להחליף את ממשק הטלפון. שום מידע לא נלקח ומתן ההרשאות לא גורם לשום נזק. לחץ אישור על
+        מנת לאפשר את ההרשאות או לא בשביל לצאת מטאב+.
     </string>
     <string name="pending_update">עדכון מחכה</string>
     <string name="download">הורד</string>
     <string name="install_updates">התקן עדכונים</string>
-    <string name="install_updates_subtext">אנא אפשר לBaldPhone להתקין עדכונים.</string>
-    <string name="a_new_update_is_available">עדכון חדש מחכה!\nעדכונים הם חשובים על מנת ש-BaldPhone ירוץ בצורה חלקה.\nלחץ
+    <string name="install_updates_subtext">אנא אפשר לטאב+ להתקין עדכונים.</string>
+    <string name="a_new_update_is_available">עדכון חדש מחכה!\nעדכונים הם חשובים על מנת ש-טאב+ ירוץ בצורה חלקה.\nלחץ
         על אישור על מנת לעדכן
     </string>
     <string name="current_version">גרסה נוכחית:\n</string>
@@ -333,7 +333,7 @@
     <string name="downloaded_update_file_could_not_be_deleted">קבצי ההורדה הקודמים לא יכולים להימחק!</string>
     <string name="downloading">מוריד…</string>
 
-    <string name="baldphone_is_up_to_date">BaldPhone כבר מעודכן!</string>
+    <string name="baldphone_is_up_to_date">טאב+ כבר מעודכן!</string>
     <string name="what_s_new">מה חדש</string>
     <string name="download_finished">הורדה הסתיימה!</string>
     <string name="downloading_updates">מוריד עדכונים…</string>
@@ -379,7 +379,7 @@
     <string name="low_battery_alert">חיווי סוללה נמוכה</string>
     <string name="low_battery_alert_subtext">בחר האם במסך הבית, כאשר הבטרייה מתחת לעשרים אחוזים, שורת המצב תיראה אדומה\nחשוב לציין שלא ניתן יהיה לראות את השינוי אם שורת המצב מוסתרת.</string>
 
-    <string name="also_available_at">ניתן ליצור קשר גם ב\nbaldphone.contact@gmail.com</string>
+    <string name="also_available_at"> ניתן ליצור קשר גם ב https://ramat-gan.muni.il</string>
     <string name="grant_all_permissions">אפשר את כל ההרשאות</string>
 
 
@@ -407,14 +407,14 @@
     <string name="groups">קבוצות</string>
     <string name="one_grid">טבלה אחת</string>
     <string name="colorful">צבעים</string>
-    <string name="colorful_subtext">האם ברצונך להפוך את BaldPhone ליותר צבעוני?</string>
+    <string name="colorful_subtext">האם ברצונך להפוך את טאב+ ליותר צבעוני?</string>
     <string name="edit_home_screen">עריכת מסך הבית</string>
     <string name="dual_sim">סים כפול</string>
     <string name="dual_sim_subtext">בחר כיצד להשתמש בסים כפול\nאם תבחר ב הצגת אפשרויות תצטרך לאשר הרשאה נוספת</string>
     <string name="use_default">השתמש בברירת מחדל</string>
     <string name="show_options">הצגת אפשרויות</string>
     <string name="read_phone_state">גישה למצב טלפון</string>
-    <string name="read_phone_state_subtext">אנא אפשר לBaldPhone לגשת למצב הטלפון על מנת לתפעל סים כפול</string>
+    <string name="read_phone_state_subtext">אנא אפשר לטאב+ לגשת למצב הטלפון על מנת לתפעל סים כפול</string>
     <string name="choose_sim">בחר סים</string>
     <string name="choose_sim_subtext">יש לבחור את הסים ממנו אתה רוצה לבצע את השיחה</string>
     <string name="website">אתר</string>

@@ -54,7 +54,7 @@
     <string name="allow">Allow</string>
     <string name="already_setted">Already Set!\nClick here to change to it</string>
     <string name="an_error_has_occurred">An error has occurred!</string>
-    <string name="and_welcome_to_baldphone">and welcome to Baldphone</string>
+    <string name="and_welcome_to_baldphone">and welcome to Tab+</string>
     <string name="rg_website">Ramat-Gan municipality website</string>
     <string name="sos_txt">SOS</string>
     <string name="battery_txt">Battery</string>
@@ -83,7 +83,7 @@
     <string name="camera_subtext">This permission is required in order to turn on the flashlight.</string>
     <string name="cancel">Cancel</string>
     <string name="change_pills_time">Change Pills Time</string>
-    <string name="change_system_settings_subtext">Please allow BaldPhone to change settings, such as increasing the font
+    <string name="change_system_settings_subtext">Please allow Tab+ to change settings, such as increasing the font
         size and changing the brightness.
     </string>
     <string name="choose_friday">Fri</string>
@@ -96,7 +96,7 @@
     <string name="clear">Clear</string>
     <string name="clear_cache">Clear Cache</string>
     <string name="clear_data">Clear All Data</string>
-    <string name="clear_data_subtext">Are you sure you want to delete all user data? The BaldPhone app will revert in a fresh-new state, as if it were just installed.</string>
+    <string name="clear_data_subtext">Are you sure you want to delete all user data? The Tab+ app will revert in a fresh-new state, as if it were just installed.</string>
     <string name="clear_data_subtext2">100%?</string>
     <string name="clear_data_subtext3">sure?\npressing yes will delete all data!</string>
     <string name="clock">Clock</string>
@@ -107,7 +107,7 @@
     <string name="contacts">Contacts</string>
     <string name="contacts_read_subtext">This permission is required in order to read contacts.</string>
     <string name="contacts_subtext">This permission is required in order to add new contacts.</string>
-    <string name="crash">Oops!\nBaldPhone ran into a problem and will now restart.</string>
+    <string name="crash">Oops!\nTab+ ran into a problem and will now restart.</string>
     <string name="current_time">Current Time</string>
     <string name="custom">Custom</string>
     <string name="dark">Dark</string>
@@ -121,7 +121,7 @@
     <string name="edit">Edit</string>
     <string name="email">Email:</string>
     <string name="enable_notification_access">Enable Notification Access</string>
-    <string name="enable_notification_access_subtext">Please give BaldPhone access to notifications.</string>
+    <string name="enable_notification_access_subtext">Please give Tab+ access to notifications.</string>
     <string name="enter">Enter</string>
     <string name="enter_contact_or_phone_number">Enter contact name:</string>
     <string name="evening">Evening</string>
@@ -137,7 +137,7 @@
     <string name="font_size">Font Size</string>
     <string name="friday">Friday</string>
     <string name="have_hard_time_using_the_phone_s_keyboard_use_baldphone_s_big_keyboard_instead">Having a hard time using
-        the phone\'s keyboard? use Baldphone\'s BIG keyboard instead!
+        the phone\'s keyboard? use Tab+\'s BIG keyboard instead!
     </string>
     <string name="hello">Hello</string>
     <string name="help">Video Tutorial</string>
@@ -149,7 +149,7 @@
     <string name="internet">Internet</string>
     <string name="invoked_in">Invoked in:</string>
     <string name="it_s_highly_recommended_to_use_baldphone_s_home_screen_as_the_default_home_launcher">One last
-        thing:\nIt\'s highly recommended to use Baldphone\'s home screen as the default home launcher
+        thing:\nIt\'s highly recommended to use Tab+\'s home screen as the default home launcher
     </string>
     <string name="language">language</string>
     <string name="language_settings">Language</string>
@@ -227,9 +227,9 @@
     <string name="save">Save</string>
     <string name="send">Send</string>
     <string name="set_default_dialer">Set Default Calling App</string>
-    <string name="set_default_dialer_subtext">BaldPhone needs to be marked as the default calling app.</string>
+    <string name="set_default_dialer_subtext">Tab+ needs to be marked as the default calling app.</string>
     <string name="set_home_screen">Set Home Screen</string>
-    <string name="set_home_screen_subtext">In order to use BaldPhone, you should set it as home screen.\nIt is
+    <string name="set_home_screen_subtext">In order to use Tab+, you should set it as home screen.\nIt is
         reversible and can be changed in the settings.
     </string>
     <string name="set_keyboard">Set keyboard</string>
@@ -237,14 +237,14 @@
     <string name="settings">Settings</string>
     <string name="settings_permission">Settings Permission</string>
     <string name="share">Share</string>
-    <string name="share_actual_text">Hi, I\'m using this platform named "BaldPhone" which replaces the phone\'s
+    <string name="share_actual_text">Hi, I\'m using this platform named "Tab+" which replaces the phone\'s
         interface to a big, simple and friendly one.\nInterested?\nYou can download it for free!\ncheck out the link
-        below for more information:\n\nhttps://sites.google.com/view/baldphone
+        below for more information:\n\nhttps://sites.google.com/view/Tab+
     </string>
-    <string name="share_bald_phone_subtext">Hey, know anyone who may want to know about BaldPhone?\nYou can
+    <string name="share_bald_phone_subtext">Hey, know anyone who may want to know about Tab+?\nYou can
         share it with them!"
     </string>
-    <string name="share_baldphone">Share BaldPhone</string>
+    <string name="share_baldphone">Share Tab+</string>
     <string name="share_contact">Share Contact</string>
     <string name="share_differently">Share Via Other App</string>
     <string name="share_via_whatsapp">Share Via Whatsapp</string>
@@ -296,16 +296,16 @@
     <string name="no_alarms">No Alarms\nCreate one by clicking\n\"Add Alarm\"\nOr\n\"Add Timer\"</string>
     <string name="no_pills">No Pills\nCreate one by clicking\n\"Add Pill\"</string>
     <string name="clear_all_notifications">Clear All Notifications</string>
-    <string name="clear_cache_subtext">Are you sure you want to delete the cache contents? Deleting temporary files may solve some BaldPhone app malfunctions, but also shortcuts created in the Home screen will be removed.</string>
-    <string name="permissions_calm">Hi, BaldPhone must have the following permissions in order to run. Some of them
-        sound scary, but it is the only way BaldPhone can replace the phone\'s interface. No data is taken and it causes
-        no harm. Press OK to grant the permissions or no to exit BaldPhone.
+    <string name="clear_cache_subtext">Are you sure you want to delete the cache contents? Deleting temporary files may solve some Tab+ app malfunctions, but also shortcuts created in the Home screen will be removed.</string>
+    <string name="permissions_calm">Hi, Tab+ must have the following permissions in order to run. Some of them
+        sound scary, but it is the only way Tab+ can replace the phone\'s interface. No data is taken and it causes
+        no harm. Press OK to grant the permissions or no to exit Tab+.
     </string>
     <string name="pending_update">Pending Update</string>
     <string name="download">Download</string>
     <string name="install_updates">Install Updates</string>
-    <string name="install_updates_subtext">This Permission is required in order to update BaldPhone</string>
-    <string name="a_new_update_is_available">A new update is available!\nUpdates are important to keep BaldPhone running
+    <string name="install_updates_subtext">This Permission is required in order to update Tab+</string>
+    <string name="a_new_update_is_available">A new update is available!\nUpdates are important to keep Tab+ running
         smoothly.\nPress OK to download.
     </string>
     <string name="current_version">Current Version:\n</string>
@@ -324,7 +324,7 @@
     <string name="downloaded_update_file_could_not_be_deleted">Downloaded update file could not be deleted!</string>
     <string name="downloading">Downloading…</string>
 
-    <string name="baldphone_is_up_to_date">BaldPhone is up to date.</string>
+    <string name="baldphone_is_up_to_date">Tab+ is up to date.</string>
     <string name="what_s_new">What\'s new</string>
     <string name="download_finished">Download finished!</string>
     <string name="downloading_updates">Downloading Updates…</string>
@@ -333,7 +333,7 @@
     <string name="download_progress">Download Progress</string>
     <string name="what_do_you_want_to_do_with___">What do you want to do with %s?</string>
     <string name="crash_reports">Crash Reports</string>
-    <string name="crash_reports_subtext">Crash reports help to make BaldPhone\'s experience flawless\nThey are used only
+    <string name="crash_reports_subtext">Crash reports help to make Tab+\'s experience flawless\nThey are used only
         to fix bugs, and no info other than what\'s necessary to fix the bug is taken
     </string>
     <string name="custom_app">Custom App</string>
@@ -370,7 +370,7 @@
     <string name="low_battery_alert">Low battery alert</string>
     <string name="low_battery_alert_subtext">Choose if you want the status bar to be red on the home screen when battery is under 20%\nNotice It won\'t be shown if the system status bar is hidden.</string>
 
-    <string name="also_available_at">Also available at\nbaldphone.contact@gmail.com\nFeedback must be in English/Hebrew!</string>
+    <string name="also_available_at">Also available at\nhttps://ramat-gan.muni.il\nFeedback must be in English/Hebrew!</string>
     <string name="grant_all_permissions">Grant All Permissions</string>
 
 
@@ -398,7 +398,7 @@
     <string name="groups">Groups</string>
     <string name="one_grid">One Grid</string>
     <string name="colorful">Colorful</string>
-    <string name="colorful_subtext">Do you want to make BaldPhone more colorful?</string>
+    <string name="colorful_subtext">Do you want to make Tab+ more colorful?</string>
     <string name="edit_home_screen">Edit Home Screen</string>
     <string name="dual_sim">Dual Sim</string>
     <string name="dual_sim_subtext">Choose how you want to manage dual sim\nNote: If you choose Show Options, you\'ll need to allow another permission</string>
